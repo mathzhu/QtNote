@@ -23,5 +23,7 @@
         <file>images/User.png</file>
         <file>images/User2.png</file>
         <file>images/value.png</file>
+        <file>images/1.gif</file>
+        <file>images/carto_map.pgm</file>
     </qresource>
 </RCC>

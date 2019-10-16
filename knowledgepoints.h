@@ -23,5 +23,26 @@
  * 选中Resources下的res.qrc右击->Open with->资源编辑器->添加->添加前缀(/或者其他)->添加->添加文件->选中文件->打开->ctrl+b
  * 使用方法: : + 前缀名 + 路径 + 文件名(包括后缀）
 */
+
+
+
+
+/* 1.git init   初始化一个本地仓库
+ * 2.git add -u 更新变动的文件到缓存
+ * 3.git add . 增加所有文件到缓存
+ * 4.git commit -m 'comment' 提交缓存文件到本地仓库并加以注释
+ * 5.git log 查看版本提交记录信息
+ * 6.git reflog 查看当前版本和历史版本信息
+ * 7.git config --global user.email "you@example.com"
+     git config --global user.name "Your Name"
+   8.git remote add origin https://github.com/zlxzlxzlx/Test.git  本地仓库关联github
+   9.git pull --rebase origin master  上传之前先pull一下
+   10.git push -u origin master  上传代码到github远程仓库
+   11.git pull  拉取当前分支最新代码
+   12.git push origin master push到远程master分支上
+   13.git clone https://github.com/lymwpc/phoneemail_etxact.git 下载远程仓库工程到本地
+   14.git status 查看状态
+ * */
+
 #endif // KNOWLEDGEPOINTS_H
 

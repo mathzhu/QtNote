@@ -13,6 +13,7 @@ public:
     ~MainWindow();
 private:
     void init();
+    void testSmartWidget();
 };
 
 #endif // MAINWINDOW_H

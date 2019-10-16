@@ -27,12 +27,14 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    cplusplus.cpp
+    cplusplus.cpp \
+    smartwidget.cpp
 
 HEADERS += \
         mainwindow.h \
     cplusplus.h \
-    knowledgepoints.h
+    knowledgepoints.h \
+    smartwidget.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
