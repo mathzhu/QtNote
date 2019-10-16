@@ -1,0 +1,2 @@
+# QtNote
+study Qt note
