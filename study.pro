@@ -28,13 +28,17 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     cplusplus.cpp \
-    smartwidget.cpp
+    smartwidget.cpp \
+    widget.cpp \
+    mylabel.cpp
 
 HEADERS += \
         mainwindow.h \
     cplusplus.h \
     knowledgepoints.h \
-    smartwidget.h
+    smartwidget.h \
+    widget.h \
+    mylabel.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -43,3 +47,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     res.qrc
+
+FORMS += \
+    widget.ui

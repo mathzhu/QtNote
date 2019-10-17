@@ -29,7 +29,7 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
     init();
-    testSmartWidget();
+    //testSmartWidget();
 }
 
 MainWindow::~MainWindow()
@@ -39,7 +39,7 @@ MainWindow::~MainWindow()
 void MainWindow::testSmartWidget(){
    //测试自己封装的控件
     SmartWidget *smartWidget = new SmartWidget(this);
-    //smartWidget->move(100, 100);
+    smartWidget->move(100, 100);
 }
 void MainWindow::init(){
     this->resize(800, 600);
@@ -207,13 +207,14 @@ void MainWindow::init(){
             for(int w = 0; w < image->width(); ++w){
                 sdata = sdata + " " + QString::number(data.at(h * image->height()  +w),10);
             }
-            qDebug() << sdata.toUtf8().data();
+            //qDebug() << sdata.toUtf8().data();
         }
         QImage showImage = QImage(pData, image->width(), image->height(), QImage::Format_Indexed8);
         QLabel *showImageLabel = new QLabel(this);
         showImageLabel->setFrameShape(QFrame::Box);
         showImageLabel->resize(600, 400);
         showImageLabel->setPixmap(QPixmap::fromImage(showImage));
+        delete(pData);
     }
 
 
