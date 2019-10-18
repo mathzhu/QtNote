@@ -30,7 +30,8 @@ SOURCES += \
     cplusplus.cpp \
     smartwidget.cpp \
     widget.cpp \
-    mylabel.cpp
+    mylabel.cpp \
+    painterdevicetest.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -38,7 +39,8 @@ HEADERS += \
     knowledgepoints.h \
     smartwidget.h \
     widget.h \
-    mylabel.h
+    mylabel.h \
+    painterdevicetest.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -49,4 +51,5 @@ RESOURCES += \
     res.qrc
 
 FORMS += \
-    widget.ui
+    widget.ui \
+    painterdevicetest.ui

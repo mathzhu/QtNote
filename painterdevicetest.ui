@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PainterDeviceTest</class>
+ <widget class="QWidget" name="PainterDeviceTest">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>867</width>
+    <height>606</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PainterDeviceTest</string>
+  </property>
+  <widget class="QPushButton" name="moveBtn">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>500</y>
+     <width>80</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>移动</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
